@@ -1,0 +1,588 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, 
+                                     initial-scale=1.0, 
+                                     maximum-scale=1.0, 
+                                     user-scalable=no">
+ <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+<!-- 新 Bootstrap 核心 CSS 文件 -->
+<link rel="stylesheet" href="http://cdn.static.runoob.com/libs/bootstrap/3.3.7/css/bootstrap.min.css">
+	<script src="http://cdn.static.runoob.com/libs/jquery/2.1.1/jquery.min.js"></script>
+	<script src="http://cdn.static.runoob.com/libs/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+	<script>    
+$('li.dropdown').mouseover(function() {   
+     $(this).addClass('open');    }).mouseout(function() {        $(this).removeClass('open');    }); 
+</script>
+<script>
+$(function (){
+    $("[data-toggle='popover']").popover();
+});
+</script>
+<style>
+* {
+   
+	font-family: "Arial","Microsoft YaHei","黑体","宋体",sans-serif;text-decoration:none;
+	}
+body
+	{
+	margin:0px;background-color:#f8f8f8;"
+	}
+	a
+	{
+	text-decoration:none;color:black;
+	}
+	video {
+    width: 100%;
+    height: auto;
+}
+a:link{color:black;}
+.homepageflow
+	{
+	margin:0px ;
+	}
+	
+a:link.homepageflow
+	{
+	text-decoration:none;color:black;
+	
+	}
+a:hover.homepageflow 
+	{
+	text-decoration:none;
+background-color:#f8f8f8;"
+
+	}	
+	img.gallery
+{
+  opacity:0.9;
+ 
+}
+img.gallery:hover
+{
+  opacity:1.0;
+  
+}
+</style>
+
+
+
+
+<script>
+
+var c=document.getElementById("myCanvas");
+var ctx=c.getContext("2d");
+ctx.font="30px Arial";
+ctx.fillText("Hello World",10,50);
+
+</script>
+
+</head>
+<body>
+
+<nav style="background-color:white;" class="navbar navbar-default" role="navigation">
+<div class="container-fluid"  >
+   
+    <div class="col-md-8 col-md-offset-2" style="padding-left:0" >    
+
+	<div class="col-md-7" style="padding-left:0px;margin:0px;">
+	 
+    <div class="navbar-header col-md-3" style="background-color:#bf1313;;padding:0px;margin:0px;" >
+        <a class="navbar-brand" href="#"><p style="color:white;padding-left:0.8em;font-size:1.2em;">King's Utopia</p></a>
+    </div>
+	<div class="col-md-9">
+        <ul class="nav navbar-nav ">
+            <li ><a href="#">新闻中心</a></li>
+		
+            <li ><a href="#" class="dropdown-toggle" id="dropdownMenu1" data-toggle="dropdown" >评测<span class="caret"></span></a>
+	 
+    
+    <ul class="dropdown-menu" role="menu" aria-labelledby="dropdownMenu1">
+        <li role="presentation">
+            <a role="menuitem" tabindex="-1" href="#">游戏</a>
+        </li>
+        <li role="presentation">
+            <a role="menuitem" tabindex="-1" href="#">画面点评</a>
+        </li>
+        <li role="presentation">
+            <a role="menuitem" tabindex="-1" href="#">硬件外设</a>
+        </li>
+        <li role="presentation" class="divider"></li>
+        
+    </ul></li>
+			<li ><a href="#">攻略</a></li>
+           
+			<li ><a href="#">手游</a></li>
+			<li ><a href="#">电影</a></li>
+			<li ><a href="#" title="Popover title"
+            data-container="body" data-toggle="popover" data-placement="bottom"
+            data-content="底部的 Popover 中的一些内容">专栏</a></li>
+                </ul>
+           
+   </div>
+  </div>
+  
+  <div class="col-md-5">
+  <ul class="nav navbar-nav navbar-right">
+      <li><a href="#"><span class="glyphicon glyphicon-user"></span> 注册</a></li>
+      <li><a href="#"><span class="glyphicon glyphicon-log-in"></span> 登录</a></li>
+    </ul>
+        <form class="navbar-form navbar-right" role="search">
+            <div class="form-group">
+                <input type="text" class="form-control" placeholder="搜索">
+            </div>
+            <button type="submit" class="btn btn-default"> <span class="glyphicon glyphicon-search"></span></button>
+        </form>
+   </div>
+  </div>
+
+</div>
+</div></nav>
+
+<div class="container-fluid"  style="padding-top:1em;">
+   
+    <div class="col-md-8 col-md-offset-2" style="padding-left:0;margin-bottom:1px;" >
+	<div style="width:5em;font-size:1.3em;padding:0.35em;display:block;color:#bf1313;border:1px solid #bf1313;">热门游戏</div>
+	<div style=""> 
+	
+	<a href="#"><img style=" margin:0px;padding:0px;" class="  col-lg-2  gallery  img-responsive" src="images/15.jpg"
+             alt="媒体对象"></a>
+			 <a href="#"> <img style=" margin:0px;padding:0px;" class="  col-lg-2  gallery  img-responsive" src="images/16.jpg"
+             alt="媒体对象"></a>
+			<a href="#">  <img style=" margin:0px;padding:0px;" class="  col-lg-2  gallery  img-responsive" src="images/17.jpg"
+             alt="媒体对象"></a>
+			<a href="#"> <img style=" margin:0px;padding:0px;" class="  col-lg-2  gallery  img-responsive" src="images/18.jpg"
+             alt="媒体对象"></a>
+			<a href="#"> <img style=" margin:0px;padding:0px;" class="  col-lg-2  gallery  img-responsive" src="images/19.jpg"
+             alt="媒体对象"></a>
+<a href="#">			 <img style=" margin:0px;padding:0px;" class="  col-lg-2   gallery img-responsive" src="images/20.jpg"
+             alt="媒体对象"></a>
+			 </div>
+	</div>
+	  
+
+	<div class="col-md-8 col-md-offset-2" style="padding-left:0" >
+<div id="myCarousel" class="carousel slide "style="padding-bottom:5px;" >
+    <!-- 轮播（Carousel）指标 -->
+    <ol class="carousel-indicators">
+        <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+        <li data-target="#myCarousel" data-slide-to="1"></li>
+        <li data-target="#myCarousel" data-slide-to="2"></li>
+		 <li data-target="#myCarousel" data-slide-to="3"></li>
+    </ol>   
+    <!-- 轮播（Carousel）项目 -->
+    <div class="carousel-inner">
+        <div class="item active">
+            <img src="images/1.jpg" alt="First slide">
+            <div class="carousel-caption"><h1>《最终幻想15》评测：华丽、仓促的十年之约</h1></div>
+        </div>
+        <div class="item">
+            <img src="images/2.jpg" alt="Second slide">
+            <div class="carousel-caption"><h1>《最后的守护者》评测：跨越一切的深情画卷</h1></div>
+        </div>
+        <div class="item">
+            <img src="images/3.jpg"  alt="Third slide">
+            <div class="carousel-caption"><h1>《地平线》评测：绮丽的世界 苦涩的复生</h1></div>
+        </div>
+		 <div class="item">
+            <a href="评测页.html"><img src="images/4.jpg"  alt="Forth slide"></a>
+            <div class="carousel-caption"><h1>《看门狗2》评测：完美的黑客 不完美的世界</h1></div>
+        </div>
+    </div>
+    <!-- 轮播（Carousel）导航 -->
+    <a class="carousel-control left" href="#myCarousel" 
+        data-slide="prev">&lsaquo;
+    </a>
+    <a class="carousel-control right" href="#myCarousel" 
+        data-slide="next">&rsaquo;
+    </a>
+</div></div>
+</div>
+</div>
+<div class="container-fluid"  ></div>
+
+<div class="container-fluid"  >
+   
+    <div class="col-md-5 col-md-offset-2" style="padding-left:0;" >
+	
+<div style="width:5em;font-size:1.3em;margin-top:.5em;padding:0.35em;display:block;color:#bf1313;border:1px solid #bf1313;">新闻资讯</div>
+	<div style="
+    clear:both;"></div>
+	<div style="padding-left:0;background-color:white;">
+	<a href="#" class="list-group-item" style="padding:0;border-width:0 0 1px 0;">
+
+<div class="media" style="position:relative;padding-top:1em; border-bottom:1px solid #ddd;"  >
+       <img style=" margin:0px;padding-left:0px;padding-bottom:1em;" class="  col-lg-3  media-object  img-responsive" src="images/11.jpg"
+             alt="媒体对象">
+
+    <div class="media-body">
+        <P style=" font-size:1.4em;font-weight:500;" class="media-heading" >国内一玩家Steam账号被盗 申诉无果称将举报Steam</P>
+        <p class="media-heading" style="font-size:1.1em;font-weight:0;padding-top:0.5em;color:grey;">“出版署见，举报点儿非法出版什么的我是有耐心的，一天五封不难。”</p>
+		
+		 <p style="position:absolute;bottom:1em;"><span   class="glyphicon glyphicon-comment"></span> 100评论</p>
+    </div>
+</div></a><a href="#" class="list-group-item" style="padding:0;border-width:0 0 1px 0;">
+
+<div class="media" style="position:relative;padding-top:1em; border-bottom:1px solid #ddd;"  >
+       <img style=" margin:0px;padding-left:0px;padding-bottom:1em;" class="  col-lg-3  media-object  img-responsive" src="images/11.jpg"
+             alt="媒体对象">
+
+    <div class="media-body">
+        <P style=" font-size:1.4em;font-weight:500;" class="media-heading" >国内一玩家Steam账号被盗 申诉无果称将举报Steam</P>
+        <p class="media-heading" style="font-size:1.1em;font-weight:0;padding-top:0.5em;color:grey;">“出版署见，举报点儿非法出版什么的我是有耐心的，一天五封不难。”</p>
+		
+		 <p style="position:absolute;bottom:1em;"><span   class="glyphicon glyphicon-comment"></span> 100评论</p>
+    </div>
+</div></a><a href="#" class="list-group-item" style="padding:0;border-width:0 0 1px 0;">
+
+<div class="media" style="position:relative;padding-top:1em; border-bottom:1px solid #ddd;"  >
+       <img style=" margin:0px;padding-left:0px;padding-bottom:1em;" class="  col-lg-3  media-object  img-responsive" src="images/11.jpg"
+             alt="媒体对象">
+
+    <div class="media-body">
+        <P style=" font-size:1.4em;font-weight:500;" class="media-heading" >国内一玩家Steam账号被盗 申诉无果称将举报Steam</P>
+        <p class="media-heading" style="font-size:1.1em;font-weight:0;padding-top:0.5em;color:grey;">“出版署见，举报点儿非法出版什么的我是有耐心的，一天五封不难。”</p>
+		
+		 <p style="position:absolute;bottom:1em;"><span   class="glyphicon glyphicon-comment"></span> 100评论</p>
+    </div>
+</div></a><a href="#" class="list-group-item" style="padding:0;border-width:0 0 1px 0;">
+
+<div class="media" style="position:relative;padding-top:1em; border-bottom:1px solid #ddd;"  >
+       <img style=" margin:0px;padding-left:0px;padding-bottom:1em;" class="  col-lg-3  media-object  img-responsive" src="images/11.jpg"
+             alt="媒体对象">
+
+    <div class="media-body">
+        <P style=" font-size:1.4em;font-weight:500;" class="media-heading" >国内一玩家Steam账号被盗 申诉无果称将举报Steam</P>
+        <p class="media-heading" style="font-size:1.1em;font-weight:0;padding-top:0.5em;color:grey;">“出版署见，举报点儿非法出版什么的我是有耐心的，一天五封不难。”</p>
+		
+		 <p style="position:absolute;bottom:1em;"><span   class="glyphicon glyphicon-comment"></span> 100评论</p>
+    </div>
+</div></a><a href="#" class="list-group-item" style="padding:0;border-width:0 0 1px 0;">
+
+<div class="media" style="position:relative;padding-top:1em; border-bottom:1px solid #ddd;"  >
+       <img style=" margin:0px;padding-left:0px;padding-bottom:1em;" class="  col-lg-3  media-object  img-responsive" src="images/11.jpg"
+             alt="媒体对象">
+
+    <div class="media-body">
+        <P style=" font-size:1.4em;font-weight:500;" class="media-heading" >国内一玩家Steam账号被盗 申诉无果称将举报Steam</P>
+        <p class="media-heading" style="font-size:1.1em;font-weight:0;padding-top:0.5em;color:grey;">“出版署见，举报点儿非法出版什么的我是有耐心的，一天五封不难。”</p>
+		
+		 <p style="position:absolute;bottom:1em;"><span   class="glyphicon glyphicon-comment"></span> 100评论</p>
+    </div>
+</div></a><a href="#" class="list-group-item" style="padding:0;border-width:0 0 1px 0;">
+
+<div class="media" style="position:relative;padding-top:1em; border-bottom:1px solid #ddd;"  >
+       <img style=" margin:0px;padding-left:0px;padding-bottom:1em;" class="  col-lg-3  media-object  img-responsive" src="images/11.jpg"
+             alt="媒体对象">
+
+    <div class="media-body">
+        <P style=" font-size:1.4em;font-weight:500;" class="media-heading" >国内一玩家Steam账号被盗 申诉无果称将举报Steam</P>
+        <p class="media-heading" style="font-size:1.1em;font-weight:0;padding-top:0.5em;color:grey;">“出版署见，举报点儿非法出版什么的我是有耐心的，一天五封不难。”</p>
+		
+		 <p style="position:absolute;bottom:1em;"><span   class="glyphicon glyphicon-comment"></span> 100评论</p>
+    </div>
+</div></a><a href="#" class="list-group-item" style="padding:0;border-width:0 0 1px 0;">
+
+<div class="media" style="position:relative;padding-top:1em; border-bottom:1px solid #ddd;"  >
+       <img style=" margin:0px;padding-left:0px;padding-bottom:1em;" class="  col-lg-3  media-object  img-responsive" src="images/11.jpg"
+             alt="媒体对象">
+
+    <div class="media-body">
+        <P style=" font-size:1.4em;font-weight:500;" class="media-heading" >国内一玩家Steam账号被盗 申诉无果称将举报Steam</P>
+        <p class="media-heading" style="font-size:1.1em;font-weight:0;padding-top:0.5em;color:grey;">“出版署见，举报点儿非法出版什么的我是有耐心的，一天五封不难。”</p>
+		
+		 <p style="position:absolute;bottom:1em;"><span   class="glyphicon glyphicon-comment"></span> 100评论</p>
+    </div>
+</div></a>
+<a href="#" class="list-group-item" style="padding:0;border-width:0 0 1px 0;">
+
+<div class="media" style="position:relative;padding-top:1em; border-bottom:1px solid #ddd;"  >
+       <img style=" margin:0px;padding-left:0px;padding-bottom:1em;" class="  col-lg-3  media-object  img-responsive" src="images/11.jpg"
+             alt="媒体对象">
+
+    <div class="media-body">
+        <P style=" font-size:1.4em;font-weight:500;" class="media-heading" >国内一玩家Steam账号被盗 申诉无果称将举报Steam</P>
+        <p class="media-heading" style="font-size:1.1em;font-weight:0;padding-top:0.5em;color:grey;">“出版署见，举报点儿非法出版什么的我是有耐心的，一天五封不难。”</p>
+		
+		 <p style="position:absolute;bottom:1em;"><span   class="glyphicon glyphicon-comment"></span> 100评论</p>
+    </div>
+</div></a>
+</div>
+</div>
+ <div class="col-md-3 ">
+ 
+<div style="float:left;width:5em;font-size:1.3em;margin-top:.5em;margin-bottom:.5em;padding:0.35em;display:block;color:#bf1313;border:1px solid #bf1313;">新游评分</div>
+<div style="
+    clear:both;"></div>
+<a href="#" class="list-group-item" style="padding:0;">
+
+<div class="media " style="position:relative;"  >
+       <img style=" margin:0px;padding-left:0px;" class="  col-md-4  media-object  img-responsive" src="images/20.jpg"
+             alt="媒体对象">
+
+    <div class="media-body">
+        <h4 class="media-heading" >地平线：零点黎明</h4><p class="label label-default pull-right" style="font-size:1em ">8.5</p>原始与文明碰撞的狂野狩猎
+        
+    </div>
+</div></a>
+<a href="#" class="list-group-item" style="padding:0;">
+
+<div class="media" style="position:relative;"  >
+    
+       
+
+   
+       <img style=" margin:0px;padding-left:0px;" class="  col-md-4  media-object  img-responsive" src="images/16.jpg"
+             alt="媒体对象">
+
+    <div class="media-body">
+        <h4 class="media-heading" style=" ">仁王</h4><p class="label label-default pull-right" style=" position:absolute;font-size:1em;right:0px;">9.0</p>欢迎回来 Team Ninja  
+    </div>
+
+</div></a>
+<a href="#" class="list-group-item" style="padding:0;">
+
+<div class="media" style="position:relative;"  >
+
+       <img style=" margin:0px;padding-left:0px;" class="  col-md-4  media-object  img-responsive" src="images/14.jpg"
+             alt="媒体对象">
+
+    <div class="media-body">
+       <h4 class="media-heading" style=" ">最后的守护者</h4><p class="label label-default pull-right" style=" position:absolute;font-size:1em;right:0px;">9.0</p>跨越一切的深情画卷  
+    </div>
+</div></a>
+<a href="#" class="list-group-item" style="padding:0;">
+
+<div class="media" style="position:relative;"  >
+
+       <img style=" margin:0px;padding-left:0px;" class="  col-md-4  media-object  img-responsive" src="images/1.jpg"
+             alt="媒体对象">
+
+    <div class="media-body">
+        <h4 class="media-heading" style=" position:absolute;bottom:0px;">最终幻想15</h4><h2 class="label label-default pull-right" style=" position:absolute;font-size:1em;right:0px;bottom:0px;">8.5</h2>
+        
+    </div>
+
+</div></a>
+<a href="#" class="list-group-item" style="padding:0;">
+
+<div class="media" style="position:relative;"  >
+ 
+       <img style=" margin:0px;padding-left:0px;" class="  col-md-4  media-object  img-responsive" src="images/15.jpg"
+             alt="媒体对象">
+
+    <div class="media-body">
+        <h4 class="media-heading" style=" ">生化危机7</h4><p class="label label-default pull-right" style=" position:absolute;font-size:1em;right:0px;">8.0</p>回归初心
+        
+    </div>
+
+</div></a>
+
+<div style="padding-top:2em;">
+<div style="float:left;width:5em;font-size:1.3em;margin-top:.5em;margin-bottom:.5em;padding:0.35em;display:block;color:#bf1313;border:1px solid #bf1313;">编辑推荐</div>
+<div style="
+    clear:both;"></div>
+<a href="#" class="list-group-item" style="padding:0;">
+
+<div class="media" style="position:relative;"  >
+
+       <img style=" margin:0px;padding-left:0px;" class="  col-md-5  media-object  img-responsive" src="images/61.jpg"
+             alt="媒体对象">
+
+    <div class="media-body">
+        <h4 class="media-heading" >2016年度10佳游戏</h4> <button type="button" style=" position:absolute;bottom:0px;" class="btn btn-default btn-sm">
+          <span  class="glyphicon glyphicon-comment"></span> 100评论
+        </button>
+        
+    </div>
+
+</div></a>
+
+
+<a href="#" class="list-group-item" style="padding:0;">
+
+<div class="media" style="position:relative;"  >
+    
+       
+
+   
+       <img style=" margin:0px;padding-left:0px;" class="  col-md-5  media-object  img-responsive" src="images/61.jpg"
+             alt="媒体对象">
+
+    <div class="media-body">
+        <h4 class="media-heading" >2016年度10佳游戏</h4> <button type="button" style=" position:absolute;bottom:0px;" class="btn btn-default btn-sm" >
+          <span  class="glyphicon glyphicon-comment"></span> 100评论
+        </button>
+        
+    </div>
+
+   
+  
+    
+
+</div></a>
+
+
+<a href="#" class="list-group-item" style="padding:0;">
+
+<div class="media" style="position:relative;"  >
+    
+       
+
+   
+       <img style=" margin:0px;padding-left:0px;" class="  col-md-5  media-object  img-responsive" src="images/61.jpg"
+             alt="媒体对象">
+
+    <div class="media-body">
+        <h4 class="media-heading" >2016年度10佳游戏</h4> <button type="button" style=" position:absolute;bottom:0px;" class="btn btn-default btn-sm">
+          <span  class="glyphicon glyphicon-comment"></span> 100评论
+        </button>
+        
+    </div>
+
+   
+  
+    
+
+</div></a>
+
+</div>
+<div style="float:left;width:5em;font-size:1.3em;margin-top:.5em;margin-bottom:.5em;padding:0.35em;display:block;color:#bf1313;border:1px solid #bf1313;">玩家社区</div>
+<div style="
+    clear:both;"></div>
+	<h4>【话题】你认为《最终幻想15》在随后的更新后会脱胎换骨么？</h4>
+	<div class="radio">
+  <label>
+    <input type="radio" name="optionsRadios" id="optionsRadios1" value="option1" >会，FF15基础很好，补全一些内容便能大幅提升游戏体验
+  </label>
+</div>
+<div class="radio">
+  <label>
+    <input type="radio" name="optionsRadios" id="optionsRadios2" value="option2">不会，FF15缺漏过多，几次有限的更新作用有限
+  </label>
+</div>
+	
+	
+	
+<div style="padding-top:2em;">
+ <ul id="myTab" class="nav nav-tabs">
+    <li class="active">
+        <a href="#home" data-toggle="tab">
+            玩家热评
+        </a>
+    </li>
+    <li><a href="#ios" data-toggle="tab">本月达人</a></li>
+    
+    </li>
+</ul>
+<div id="myTabContent" class="tab-content">
+    <div class="tab-pane fade in active" id="home">
+ <div >
+ <a>影子摩西</a>评论了<a>Steam商店正式支持财付通支付 剁手方式更花式</a>：
+ <h4 style="background-color:white;padding:0.3em">小岛秀夫就是神！！！！！</h4>
+ 
+ </div>
+  <div ><a>老徐</a>评论了<a>Steam商店正式支持财付通支付 剁手方式更花式</a>：
+ <h4 style="background-color:white;padding:0.3em">《最终幻想15》真好玩！！！！！</h4>
+ 
+ </div>
+  <div >
+  <a>阿香婆</a>评论了<a>Steam商店正式支持财付通支付 剁手方式更花式</a>：
+ <h4 style="background-color:white;padding:0.3em">《凡人修仙传》秒杀《战地4》，《巫师3》比《仙剑6》差远了！</h4>
+ 
+ </div>
+
+    </div>
+    <div class="tab-pane fade" id="ios">
+     
+    
+    <a href="#" class="list-group-item" style="padding:0;">
+
+<div class="media" style="position:relative;"  >
+    
+       
+
+   
+       <img style=" margin:0px;padding-left:0px;" class="  col-md-2  media-object  img-responsive" src="images/32.jpg"
+             alt="媒体对象">
+
+    <div class="media-body">
+       <span class="badge pull-right">三连冠</span> <h4 class="media-heading" >影子摩西</h4>
+        homo ludens 
+    </div>
+
+   
+  
+    
+
+</div></a>
+    <li class="list-group-item">
+       
+        <img src="images/32.jpg" class="col-md-3 ">影子摩西
+    </li>
+    <li class="list-group-item">老徐</li>
+    <li class="list-group-item">
+        <span class="badge">新</span>
+        小铭
+    </li>
+
+    </div>
+</div>
+</div>
+ </div>
+ </div>
+ 
+<div class="container-fluid" >
+ 
+   <div class="col-md-8 col-md-offset-2"  >
+   <div style="font-size:2em;padding-top:1em;">视·<span style="color:#bf1313;">觉</span>
+ </div>
+ <div class="row"   >
+<div class="col-md-3 " style="padding:0em;"  >
+ <a href="#"><img  src="images/41.jpg" class="gallery img-responsive  "  alt="Third slide"></a>
+
+ </div>
+ <div class="col-md-6" style="padding:0em;" >
+ <div style="padding:0em;">
+ <a href="#"><img  src="images/1.jpg" class=" gallery img-responsive  "  alt="Third slide"></a>
+ </div>
+ <div class="col-md-4" style="padding:0em;" >
+ <a href="#"><img  src="images/13.jpg" class="gallery img-responsive  "  alt="Third slide"></a>
+  </div>
+  <div class="col-md-8" style="padding:0em;">
+ <a href="#"><img  src="images/14.jpg" class=" gallery img-responsive  "  alt="Third slide"></a>
+  </div>
+ </div>
+
+ <div class="col-md-3 "style="padding:0em;" >
+ <a href="#"><img  src="images/41.jpg" class="gallery img-responsive  "  alt="Third slide"></a>
+
+ </div>
+ 
+</div>
+</div></div>
+
+
+<div style="
+    clear:both;">
+	</div>
+<div style="height:10em;background-color:#f8f8f8;border-top:1px solid #ddd;">
+<div class="col-md-8 col-md-offset-2"  >
+<h3>鸣谢</h3>
+	<div >
+	<a href="#">  <img style=" " class="  col-lg-2    img-responsive" src="images/70.png"
+             alt="媒体对象"></a>
+			<a href="#"> <img style=" " class=" col-lg-1     img-responsive" src="images/71.png"
+             alt="媒体对象"></a>
+			<a href="#"> <img style=" " class="  col-lg-2    img-responsive" src="images/72.png"
+             alt="媒体对象"></a>
+			 <a href="#"> <img style=" " class="  col-lg-2    img-responsive" src="images/73.png"
+             alt="媒体对象"></a></div>
+</div><div style="
+    clear:both;">
+<div style="color:white;text-align:center;padding-top:2em;"><a href="mailto:1206679155@qq.com" target="_blank"><p>CONTACT ME | 联系我</p></a>
+</div></div>
+
+</body>
+</html>
